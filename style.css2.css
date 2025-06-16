@@ -12,6 +12,6 @@ li:last-child::after{
 }
 
 .p{
-  color: rgba(255, 0, 0, 0.7);
+  color:red;
 }
 
