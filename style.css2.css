@@ -1,17 +1,11 @@
-ul{
-  list-style-type: disc;
-  padding: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+p{
+  color:blue; /*regola1: selettore di tipo (bassa specificità)*/
 }
 
-li:last-child::after{
- content: " cena";
-  color:blue;
-  font-weight: bolder;
+.miaClasse{
+  color:green;/*regola2: selettore di classe (più specifico di p)*/
 }
 
-.p{
-  color:red;
+#mioID{
+  color: red; /*regola3: selettore ID (ancora più specifico)*/
 }
-
