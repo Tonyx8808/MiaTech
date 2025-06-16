@@ -1,11 +1,13 @@
-p{
-  color:blue; /*regola1: selettore di tipo (bassa specificità)*/
+.verde {
+  color: darkgreen; 
+  text-align: center;
 }
 
-.miaClasse{
-  color:green;/*regola2: selettore di classe (più specifico di p)*/
+.verde ul {
+  list-style-position: inside;
+  padding-left: 0;
 }
-
-#mioID{
-  color: red; /*regola3: selettore ID (ancora più specifico)*/
+.blu {
+  color: navy;
+  text-align: left;
 }
