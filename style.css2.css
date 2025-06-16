@@ -7,6 +7,10 @@ ul{
 
 li:last-child::after{
  content: " cena";
-  color:red;
+  color:blue;
   font-weight: bolder;
+}
+
+.p{
+  color:rgb(255, 0, 0);
 }
