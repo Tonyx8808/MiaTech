@@ -13,4 +13,21 @@
 height: 100px;
 background-color: red;
 }
-    
+
+/*rem & em*/
+
+html{
+  font-size: 16px; /*dimensione base del font radice*/
+}
+
+div {
+  font-size: 10px; /* dimensione font del contenitore */
+}
+
+.rem-txt {
+  font-size: 7rem; /* 7 volte la dimensione del font radice (html) */
+}
+
+.em-txt {
+  font-size: 7em; /* 7 volte la dimensione del font del genitore (div) */
+}
