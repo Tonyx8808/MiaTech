@@ -1,0 +1,15 @@
+/*DIV NO PADDING*/
+
+.senza-padding{
+    background-color: #ffcccc;
+  width: 300px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+
+.con-padding {
+  background-color: #ccffcc;
+  width: 300px;
+  padding: 30px;
+  font-family: sans-serif;
+}
