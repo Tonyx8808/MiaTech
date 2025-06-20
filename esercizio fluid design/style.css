@@ -1,6 +1,16 @@
+
+/*quadrato in %*/
 .box {
  width: 10%;
-  padding-top:10%;         /* L'altezza sarà pari al 50% della larghezza */
+  padding-top:10%;        
   background-color: steelblue;
+}
+
+/*quadrato in px*/
+
+.box2{
+  width: 100px;
+height: 100px;
+background-color: red;
 }
     
