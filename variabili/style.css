@@ -7,3 +7,13 @@
     color:var(--colore-principale);
     font-size: var(--dimensione-testo);
 }
+
+/*padding*/
+:root {
+  --padding-box:30px;
+}
+
+.box, .testo {
+  padding: var(--padding-box);
+  background-color:black;
+}
