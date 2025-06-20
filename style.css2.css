@@ -1,13 +1,36 @@
-.verde {
-  color: darkgreen; 
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.verde ul {
-  list-style-position: inside;
-  padding-left: 0;
+.box{
+  width: 150px;
+  height: 150px;
+  background: blue;
+  margin: 10px;
 }
-.blu {
-  color: navy;
-  text-align: left;
+
+.box.row{
+  flex-grow: 1;
+}
+
+.content{
+  padding: 10px;
+  width: 100%;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.content-1{
+  display: flex;
+  flex-direction: row;
+}
+
+.content-2{
+  display: flex;
+  flex-direction: column;
+}
+
+.content-3{
+  display: flex;
+  flex-direction: row;
 }

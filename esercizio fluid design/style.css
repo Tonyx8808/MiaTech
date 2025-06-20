@@ -1,0 +1,6 @@
+.box {
+ width: 10%;
+  padding-top:10%;         /* L'altezza sarà pari al 50% della larghezza */
+  background-color: steelblue;
+}
+    
