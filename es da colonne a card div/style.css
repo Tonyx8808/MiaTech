@@ -1,0 +1,12 @@
+
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colonna{
+    width: 30%;
+    padding: 10%;
+    background-color: whitesmoke;
+    border: 1px solid black;
+}
