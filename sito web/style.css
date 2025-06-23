@@ -60,3 +60,14 @@ p.nascosto{
   font-size: 16px;
   line-height: 1.5;
 }
+
+img .float-left{
+  float:left;
+  margin-right: 15px;
+  width: 100px;
+
+}
+
+.clear{
+  clear:both;
+}
