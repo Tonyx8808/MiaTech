@@ -12,6 +12,16 @@
       height: 2000px;
       padding: 20px;
     }
+    
+    .quadrato{
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  background-color: blue;
+  bottom: 20px;
+  right: 20px;
+  
+}
 
     body {
   margin: 0;
@@ -31,3 +41,4 @@
   line-height: 60px;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
 }
+
