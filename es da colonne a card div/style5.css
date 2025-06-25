@@ -1,17 +1,24 @@
 .flexbox{
-display: flex;
-justify-content: space-between;
-align-items: center;
-border: 2px solid black;
-padding: 20px;
-height: 200px;
+ display: flex;
+  gap: 10px;
+  counter-reset: contatore;
+  flex-direction: column;
 }
 
+
 .box{
-    background-color: bisque;
-    border: 1px solid #333;
-    padding:20px;
-    flex:2;
-    margin:10px;
-    text-align: center;
+     flex: 1;
+  padding: 20px;
+  background-color: #add8e6;
+  position: relative;
+}
+
+.box::before{
+    counter-increment: contatore;
+  content: counter(contatore) ". ";
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-weight: bold;
+  color: #000;
 }
