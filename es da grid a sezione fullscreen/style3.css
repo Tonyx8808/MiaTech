@@ -1,8 +1,8 @@
 .container {
   display: grid;
-  grid-template-rows: 100px 100px;       /* 2 righe alte 100px */
+  grid-template-rows: 100px 150px;       /* prima riga 100px, seconda riga 150px */
   grid-template-columns: repeat(5, 1fr); /* 5 colonne uguali */
-  gap: 10px;                             /* spazio tra le celle */
+  gap: 10px;
   max-width: 800px;
   margin: 20px auto;
   padding: 10px;
