@@ -1,0 +1,26 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.elemento {
+  background-color: lightblue;
+  padding: 30px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: 2px solid #0077b6;
+}
+
+/* Unione verticale di 1 e 4 */
+.elemento:nth-child(1) {
+  grid-row: span 2;
+  background-color: lightgreen;
+}
+
+.elemento:nth-child(4) {
+  display: none;
+}
